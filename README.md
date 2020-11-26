@@ -82,7 +82,7 @@ python reforecast.py --dataroot "./datasets/CNRM_tas_anomalies_regridded.nc" --d
 ## Management tools
 ### Figshare
 - Share research results
-- Link to [figshare](https://figshare.com/projects/ENSO_Machine_Learning_Weather_forecast/92510)
+- Link to [figshare](https://figshare.com/account/home#/projects/93302)
 
 ### Zendo
 - Make Github's work available for reference
