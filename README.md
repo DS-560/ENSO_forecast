@@ -86,7 +86,7 @@ python reforecast.py --dataroot "./datasets/CNRM_tas_anomalies_regridded.nc" --d
 
 ### Zendo
 - Make Github's work available for reference
-[![DOI](https://zenodo.org/badge/316078841.svg)](https://zenodo.org/badge/latestdoi/316078841)
+- [![DOI](https://zenodo.org/badge/316078841.svg)](https://zenodo.org/badge/latestdoi/316078841)
 
 ### Binder
 - Binder badge to notebook
