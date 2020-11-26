@@ -76,3 +76,20 @@ python reforecast.py --dataroot "./datasets/sst.mon.mean.trefadj.anom.1880to2018
 ```bash
 python reforecast.py --dataroot "./datasets/CNRM_tas_anomalies_regridded.nc" --dataroot1  "./datasets/sst.mon.mean.trefadj.anom.1880to2018.nc" --instrument_data "./datasets/nino34.long.anom.data.txt" --dataset CNRM --name LR   --startdate 1950-01-01 --enddate 2050-12-31 --test_start 1992-01-01 --test_end 2015-12-31  --leadtime 2 --reforecast_data reforecast.txt --model linear_regression --compare_ground_truth --classification 
 ```
+
+---
+
+## Management tools
+### Figshare
+- Share research results
+- Link to [figshare](https://figshare.com/projects/ENSO_Machine_Learning_Weather_forecast/92510)
+
+### Zendo
+- Make Github's work available for reference
+[![DOI](https://zenodo.org/badge/316078841.svg)](https://zenodo.org/badge/latestdoi/316078841)
+
+### Binder
+- Binder badge to notebook
+<!-- Please add your Binder link to there -->
+<!-- - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DS-560/Weather_Forecast_ENSO_ML/main?filepath=ENSO_forecast.ipynb) -->
+ 
