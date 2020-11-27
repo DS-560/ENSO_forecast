@@ -1,3 +1,4 @@
+import numpy as np
 import torch.nn as nn
 import torch.nn.functional as F
 import torch
@@ -8,7 +9,6 @@ from matplotlib import pyplot as plt
 import os
 from sklearn import linear_model
 import pandas as pd
-import numpy as np
 import xarray as xr
 
 class CNN(nn.Module):

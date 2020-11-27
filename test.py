@@ -1,4 +1,5 @@
 from options.test_options import Test_options
+import numpy as np
 from models import *
 import importlib
 from create_dataset import *
@@ -12,7 +13,7 @@ from matplotlib import pyplot as plt
 import os
 from sklearn import linear_model
 import pandas as pd
-import numpy as np
+
 
 def proper_mon(m):
     if m<10:

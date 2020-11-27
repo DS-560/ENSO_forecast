@@ -1,4 +1,5 @@
 from options.reforecast_options import Reforecast_options
+import numpy as np
 from create_dataset import *
 from models import *
 import importlib
@@ -13,7 +14,6 @@ from matplotlib import pyplot as plt
 import os
 from sklearn import linear_model
 import pandas as pd
-import numpy as np
 import datetime
 
 def get_date_idx(dates):
