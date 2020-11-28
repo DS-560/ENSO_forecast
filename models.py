@@ -77,7 +77,10 @@ def cnn_predict(url,testloader):
     # url: link to saved model
     # x: predictant
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
-    net = torch.load(url)
+    if torch.cuda.is_available():
+        net = torch.load(url)
+    else:
+        net = torch.load(url, map_location=torch.device('cpu'))
     net.eval()
     net.to(device)
     predictions = np.asarray([])
