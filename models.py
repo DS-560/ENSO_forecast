@@ -239,3 +239,18 @@ def read_reforecast(opt):
     merge_date_nino(dict_,date_[:-2],y)
     ds.close()
   return  dict_
+
+def accuracy(x,y):
+    # x: np.array
+    # y: pd.Series
+    if len(x)==0 or len(y)==0:
+        return 0
+    x1,y1=[],[]
+    for i,j in zip(x,y):
+        x1.append(int(i))
+        y1.append(int(j))
+    y1=np.array(y1)
+    x1=np.array(x1)
+    match = x1 == y1
+    return sum(match)/len(match)
+    

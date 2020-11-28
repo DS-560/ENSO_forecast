@@ -101,6 +101,13 @@ if __name__ == '__main__':
     reforecast = pd.Series(reforecast, index=pd.to_datetime(time_series))
     corr, _ = pearsonr(model_pred, reforecast)
     rmse = mean_squared_error(model_pred, reforecast) ** 0.5
-    plot_nino_time_series(reforecast,model_pred, '{} Predictions vs. Reforecast. Corr: {:3f}. RMSE: {:3f}.'.format(experiment_name,
+    #plot_nino_time_series(reforecast,model_pred, '{} Predictions vs. Reforecast. Corr: {:3f}. RMSE: {:3f}.'.format(experiment_name,
+    #                                                                  corr, rmse),'./results/'+fname+'_Reforecast', label='Reforecast')
+    if opt.classification:
+        acc = accuracy(reforecast, model_pred)
+        plot_nino_time_series(reforecast, model_pred, '{} Predictions vs. Reforecast. Acc: {:.3} Corr: {:.3}. RMSE: {:.4}.'.format(experiment_name,
+                                                                      acc, corr, rmse),'./results/'+fname+'_Reforecast', label='Reforecast')
+    else:
+        plot_nino_time_series(reforecast, model_pred, '{} Predictions vs. Reforecast. Corr: {:.3}. RMSE: {:.4}.'.format(experiment_name,
                                                                       corr, rmse),'./results/'+fname+'_Reforecast', label='Reforecast')
     

@@ -94,7 +94,12 @@ if __name__=='__main__':
         if opt.compare_ground_truth:
             corr, _ = pearsonr(test_predictands, pred_CNN)
             rmse = mean_squared_error(test_predictands, pred_CNN) ** 0.5
-            plot_nino_time_series(test_predictands, pred_CNN, '{} Predictions. Corr: {:3f}. RMSE: {:3f}.'.format(experiment_name,
+            if opt.classification:
+                acc = accuracy(test_predictands, pred_CNN)
+                plot_nino_time_series(test_predictands, pred_CNN, '{} Predictions. Acc: {:.3} Corr: {:.3}. RMSE: {:.4}.'.format(experiment_name,
+                                                                      acc, corr, rmse),'./results/'+fname)
+            else:
+                plot_nino_time_series(test_predictands, pred_CNN, '{} Predictions. Corr: {:.3}. RMSE: {:.3}.'.format(experiment_name,
                                                                       corr, rmse),'./results/'+fname)
         
     elif opt.model == 'linear_regression':
@@ -116,7 +121,12 @@ if __name__=='__main__':
         if opt.compare_ground_truth:
             corr, _ = pearsonr(y_test, pred_reg)
             rmse = mean_squared_error(y_test, pred_reg) ** 0.5
-            plot_nino_time_series(y_test, pred_reg, '{} Predictions. Corr: {:3f}. RMSE: {:3f}.'.format(experiment_name,
+            if opt.classification:
+                acc = accuracy(y_test, pred_reg)
+                plot_nino_time_series(y_test, pred_reg, '{} Predictions. Acc: {:.3} Corr: {:.3}. RMSE: {:.4}.'.format(experiment_name,
+                                                                      acc, corr, rmse),'./results/'+fname)
+            else:
+                plot_nino_time_series(y_test, pred_reg, '{} Predictions. Corr: {:.3}. RMSE: {:.4}.'.format(experiment_name,
                                                                       corr, rmse),'./results/'+fname)
         
         
