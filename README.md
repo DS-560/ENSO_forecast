@@ -4,7 +4,7 @@
 ### Use Microsoft Windows 10 as the operating system. If you use iOS or other operating systems, ajust the commands accordingly.
 - Clone this repo using Git Bash:
 ```bash
-git clone https://github.com/FeilongWu/ENSO_forecast.git
+https://github.com/DS-560/ENSO_forecast.git
 ```
 
 If you have pretrained models and datasets, put them under directores "/checkpoints/" and "/datasets/", respectively. All the output CNN models will be saved under "/checkpoints/" and output results will be saved under "/results/".
