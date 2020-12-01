@@ -1,7 +1,7 @@
 # ENSO_forecast
 
 ## Usage
-### Use Microsoft Windows 10 as the operating system. If you use iOS or other operating systems, ajust the commands accordingly.
+### Use Microsoft Windows 10 as the operating system. If you use iOS or other operating systems, adjust the commands accordingly.
 - Clone this repo using Git Bash:
 ```bash
 https://github.com/DS-560/ENSO_forecast.git
