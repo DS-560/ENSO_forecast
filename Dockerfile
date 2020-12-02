@@ -19,6 +19,7 @@ RUN pip install scikit-learn==0.23.2
 RUN pip install scipy==1.5.4
 RUN pip install xarray==0.16.1
 RUN pip install netCDF4==1.5.4
+RUN pip install tqdm==4.54.0
 
 RUN mkdir ENSO_forecast
 Add /reforecast.py /ENSO_forecast/
