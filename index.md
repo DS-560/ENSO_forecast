@@ -11,7 +11,7 @@ For more detail of the project, please see and download the PDF version: [Projec
 For more details see [ Download Gantt Chart of ENSO_forecast](https://ds-560.github.io/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
 
 **Milestone**
-- Electing a project manager for our team 
+- Electing a project manager
 - Deliver the sildes for the 1st meeting
 - Meet with our instructor (1st meeting) 
 - Create and deliver the sildes for the 2nd meeting
