@@ -110,3 +110,33 @@ cd "C://Users//your//name//ENSO_forecast"
 jupyter notebook
 ```
 - A new tab will be opened. Click on "ENSO_forecast.ipynb" to access to the notebook where you can use the training/testing/reforecast commands above.
+
+## Citations
+### Software
+
+DS-560 (2020) ENSO_forecast, GitHub. V1.0.2 https://doi.org/10.5281/zenodo.4302000
+
+### Results
+
+PANG, JIEQIONG (2020): Final_Classification_Accuracy. figshare. Figure. https://doi.org/10.6084/m9.figshare.13315988.v2
+
+PANG, JIEQIONG (2020): Final_Visualization. figshare. Figure. https://doi.org/10.6084/m9.figshare.13291820.v2
+
+PANG, JIEQIONG (2020): linear classification. figshare. Figure. https://doi.org/10.6084/m9.figshare.13298495.v1
+
+PANG, JIEQIONG (2020): Reforecast_CNN_Classification. figshare. Figure. https://doi.org/10.6084/m9.figshare.13291958.v3
+
+PANG, JIEQIONG (2020): Reforecast_CNN. figshare. Figure. https://doi.org/10.6084/m9.figshare.13292042
+
+PANG, JIEQIONG (2020): Reforecast_LR. figshare. Figure. https://doi.org/10.6084/m9.figshare.13292051.v2
+
+PANG, JIEQIONG (2020): Reforecast_LR_Classification. figshare. Figure. https://doi.org/10.6084/m9.figshare.13292066.v2
+
+Lin, Kuan-Hui (2020): Visualization of classification after CNN testing results. figshare. Figure. https://doi.org/10.6084/m9.figshare.13291898
+
+Lin, Kuan-Hui (2020): Visualization of CNN testing results. figshare. Figure. https://doi.org/10.6084/m9.figshare.13291988.v1
+
+PANG, JIEQIONG (2020): Linear Regression. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13291724.v3
+
+PANG, JIEQIONG (2020): Classification after linear regression. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13290200.v3
+
