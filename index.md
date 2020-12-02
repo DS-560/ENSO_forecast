@@ -6,7 +6,7 @@ For more detail of the project, please see and download the PDF version: [Projec
 
 ## Planned the project 
 **Gantt Chart**
-![image](https://ds-560.github.io/ENSO_forecast/week1_gantt_chart.jpg)
+![image](https://ds-560.github.io/ENSO_forecast/gantt_chart_week1.jpg)
 
 For more details see [ Download Gantt Chart of ENSO_forecast](https://ds-560.github.io/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
 
