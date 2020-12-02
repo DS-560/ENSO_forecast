@@ -5,10 +5,13 @@ Theory-based models are too computationally expensive to predict El Niño-Southe
 ## Identified Wastes
 Skills:
 The user needs to learn how to run codes in the terminal and understands Github's tutorial.
+
 Waiting:
 The user needs to wait for a couple of minutes to get the result.
+
 Over-processing:
 The user needs to input the terminal parameters each time they use the system.
+
 Inventory:
 Multiple folders in the local, so the user might need to find the result in those folders.
 
