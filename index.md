@@ -70,14 +70,19 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Contact Infromation
 Zerui Xie 
 Email: zeruixie@usc.edu
+
 Jieqiong Pang
 Email: jieqiong@usc.edu
+
 Kuan-Hui Lin
 Email: kuanhuil@usc.edu  
+
 Yunyi Liao
 Email: yunyilia@usc.edu
+
 Jinhong Lei
 Email: leijinho@usc.edu
+
 Feilong Wu
 Email: feilongw@usc.edu
 
