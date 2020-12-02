@@ -23,7 +23,7 @@ For more details see [ Download Gantt Chart of ENSO_forecast](https://ds-560.git
 - Assemble and publish the code
 - Report submission
 
-**Some Deliverables from the project**
+**Deliverables**
 - Arrange tasks for each person for the 1st meeting
 - Create and beautify the sildes
 - Resolve Datetime format error
@@ -51,7 +51,8 @@ Download the data through the link mentioned below directly on a local computer 
 - [Nino3.4 Index](http://portal.nersc.gov/project/dasrepo/AGU_ML_Tutorial/nino34.long.anom.data.txt)
 - [MPI](http://portal.nersc.gov/project/dasrepo/AMS_ML_Tutorial/MPI_tas_anomalies_regridded.nc)
 - [CNRM-CM5](http://portal.nersc.gov/project/dasrepo/AMS_ML_Tutorial/CNRM_tas_anomalies_regridded.nc)
-- [Reforecast Data](https://drive.google.com/file/d/1I5-zCzZgjZjfCAEPfSZaChRw0BHEdooP/view?usp=sharing)
+- [Reforecast Data (GRIB format)](https://drive.google.com/file/d/1I5-zCzZgjZjfCAEPfSZaChRw0BHEdooP/view?usp=sharing)
+- [Reforecast Data (NetCDF format)](https://drive.google.com/file/d/1fW3Dbm3DAPjIb64AlN4kjctwj3rRsDmW/view?usp=sharing)
 
 
 ## Contact Infromation of Our Team
