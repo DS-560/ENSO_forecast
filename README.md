@@ -1,5 +1,17 @@
 # ENSO_forecast
 
+## Management tools
+### Documentation
+- https://ds-560.github.io/ENSO_forecast/
+
+### Figshare
+- Share research results
+- Link to [figshare](https://figshare.com/projects/ENSO_Forecast/93302)
+
+### Zenodo
+- Make Github's work available for reference
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4302000.svg)](https://doi.org/10.5281/zenodo.4302000)
+
 ## Dataset
 You can download the CNRM model data for training from [here](http://portal.nersc.gov/project/dasrepo/AMS_ML_Tutorial/). The instrument data for SST anomaly is [here](https://climate.mri-jma.go.jp/pub/ocean/cobe-sst2/) and the instrumental data for Nino 3.4 index can be downloaded from this [website](https://portal.nersc.gov/project/dasrepo/AGU_ML_Tutorial/nino34.long.anom.data.txt). This [website](https://cds.climate.copernicus.eu/cdsapp#!/home) provides many options for reforecasr data.
 
@@ -69,17 +81,6 @@ python reforecast.py --dataroot "./datasets/CNRM_tas_anomalies_regridded.nc" --d
 
 ---
 
-## Management tools
-### Documentation
-- https://ds-560.github.io/ENSO_forecast/
-
-### Figshare
-- Share research results
-- Link to [figshare](https://figshare.com/projects/ENSO_Forecast/93302)
-
-### Zenodo
-- Make Github's work available for reference
-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4302000.svg)](https://doi.org/10.5281/zenodo.4302000)
  
 ## Docker
 - We provide a dockerfile by which you can build your container. Refer to the instructions above to clone this repository and set up your datasets and models (if any). Please make sure you have installed [Docker Desktop](https://www.docker.com/products/docker-desktop) in your computer. Also, make sure that your docker daemon is running. In Anaconda Prompt, go to the repository you just cloned. An example command is as below.
