@@ -7,7 +7,7 @@
 git clone https://github.com/DS-560/ENSO_forecast.git
 ```
 
-If you have pretrained models and datasets, put them under directores "/checkpoints/" and "/datasets/", respectively. All the output CNN models will be saved under "/checkpoints/" and output results will be saved under "/results/".
+If you have pretrained models and datasets, put them under directories "/checkpoints/" and "/datasets/", respectively. All the output CNN models will be saved under "/checkpoints/" and output results will be saved under "/results/".
 ### All the commands below are executed using [Anaconda Prompt](https://www.anaconda.com/) unless specified otherwise.
 - Set the repository you just cloned as your working directory. The path to the directory may vary for different users. An example command is shown below:
 ```bash
