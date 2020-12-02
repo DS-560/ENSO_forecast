@@ -68,7 +68,7 @@ python reforecast.py --dataroot "./datasets/CNRM_tas_anomalies_regridded.nc" --d
 - Share research results
 - Link to [figshare](https://figshare.com/projects/ENSO_Forecast/93302)
 
-### Zendo
+### Zenodo
 - Make Github's work available for reference
 - [![DOI](https://zenodo.org/badge/316078841.svg)](https://zenodo.org/badge/latestdoi/316078841)
  
