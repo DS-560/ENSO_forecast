@@ -79,7 +79,7 @@ python reforecast.py --dataroot "./datasets/CNRM_tas_anomalies_regridded.nc" --d
 
 ### Zenodo
 - Make Github's work available for reference
-- [![DOI](https://zenodo.org/badge/316078841.svg)](https://zenodo.org/badge/latestdoi/316078841)
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4302000.svg)](https://doi.org/10.5281/zenodo.4302000)
  
 ## Docker
 - We provide a dockerfile by which you can build your container. Refer to the instructions above to clone this repository and set up your datasets and models (if any). Please make sure you have installed [Docker Desktop](https://www.docker.com/products/docker-desktop) in your computer. Also, make sure that your docker daemon is running. In Anaconda Prompt, go to the repository you just cloned. An example command is as below.
