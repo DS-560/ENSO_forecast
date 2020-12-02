@@ -1,19 +1,17 @@
-# ENSO Weather Forecast Using Machine Learning
+## Project Summary
 
-Theory-based models are too computationally expensive to predict El Niño-Southern Oscillation (ENSO). We proposed new methods with time and computation efficiency to predict ENSO with a goal to achieve Pearson correlation above 0.6. We used linear regression and convolutional neural network (CNN) models from machine learning. The Nino 3.4 index predictions and their classified labels from both models were tested in instrumental data and validated on reforecast data generated from a theory-based model. The test result showed that regression had better performance than classification. Both linear regression and CNN models could achieve skillful predictions (i.e., Pearson correlation above 0.6) for lead time of 7 and 8 months, respectively. The classification had much lower correlations but high accuracy. When lead time was low, the linear regression performed better than CNN and it was the opposite when the lead time became high. The validation on reforecast indicated that our models were able to predict the trend of Nino 3.4 index, but their predictions were of lower amplitude.
+The purpose of ENSO_forecast is to propose new methods based on machine learning predicting El Niño-Southern Oscillation (ENSO) with time and computation efficiency and Pearson correlation can achieve greater than 0.6. Traditional theory-based models are too computationally expensive for predicting ENSO. Our forecasting system not only can maintain skillful prediction with a Pearson correlation above 0.6 for long-range forecast but also can let clients run our forecasting system quickly and on a local computer when out in the field, and can allow for a quick visualization of the comparison with instrumental data and theory-based models.
 
-## Identified Wastes
-- Skills: The user needs to learn how to run codes in the terminal and understands Github's tutorial.
-- Waiting: The user needs to wait for a couple of minutes to get the result.
-- Over-processing: The user needs to input the terminal parameters each time they use the system.
-- Inventory: Multiple folders in the local, so the user might need to find the result in those folders.
+For more detail of the project, please see and download the PDF version: [Project Report] (缺 PDF url)
 
-## Deliverables
-- Arrange tasks for each person for the 1st meeting
-- Create and beautify the sildes
-- Resolve Datetime format error
+## Planned the project 
+**Gantt Chart**
+![image](https://ds-560.github.io/ENSO_forecast/week1_gantt_chart.jpg)
 
-## Milestone
+For more details see [ Download Gantt Chart of ENSO_forecast](https://ds-560.github.io/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
+
+**Milestone**
+- Electing a project manager for our team 
 - Deliver the sildes for the 1st meeting
 - Meet with our instructor (1st meeting) 
 - Create and deliver the sildes for the 2nd meeting
@@ -22,66 +20,43 @@ Theory-based models are too computationally expensive to predict El Niño-Southe
 - Meet with our instructor (4th Meeting)
 - Deliver the rehearsal video
 - Final meeting
-- Assemble and publish the code 
+- Assemble and publish the code
 - Report submission
 
-## Gantt Chart
+**Some Deliverables from the project**
+- Arrange tasks for each person for the 1st meeting
+- Create and beautify the sildes
+- Resolve Datetime format error
+- Test the code on different environment
+- Put experimental results on figshare
 
-![image](https://ds-560.github.io/ENSO_forecast/week1_gantt_chart.jpg)
+## Identified Wastes
+- Skills: The user needs to learn how to run our codes in the terminal and understand Github’s tutorial.
+- Waiting: The user needs to wait for a couple of minutes to get the result.
+- Over-processing: The user needs to input parameters from the our README.md in the terminal each time when they use our system.
+- Inventory: Multiple folders in the local, so the user might need to find the results in those folders.
 
-For more details see [Gantt Chart of ENSO_forecast](https://ds-560.github.io/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
+## Usage of ENSO_forecast
+See our GitHub [README.md](https://github.com/DS-560/ENSO_forecast/blob/main/README.md)
+
+## Used Packages
+- Pytorch
+- Scikit-learn
+- Xarray
+
+## Used Dataset for ENSO_forecast
+Download the data through the link mentioned below directly on a local computer that used for the ENSO_forecast project
+
+http://portal.nersc.gov/project/dasrepo/AGU_ML_Tutorial/sst.mon.mean.trefadj.anom.1880to2018.nc
+http://portal.nersc.gov/project/dasrepo/AGU_ML_Tutorial/nino34.long.anom.data.txt
+http://portal.nersc.gov/project/dasrepo/AMS_ML_Tutorial/MPI_tas_anomalies_regridded.nc
+http://portal.nersc.gov/project/dasrepo/AMS_ML_Tutorial/CNRM_tas_anomalies_regridded.nc
 
 
-## Contact Infromation
+## Contact Infromation of Our Team
 - Zerui Xie: _zeruixie@usc.edu_
 - Jieqiong Pang: _jieqiong@usc.edu_
 - Kuan-Hui Lin: _kuanhuil@usc.edu_  
 - Yunyi Liao: _yunyilia@usc.edu_
 - Jinhong Lei: _leijinho@usc.edu_
 - Feilong Wu: _feilongw@usc.edu_
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DS-560/ENSO_forecast/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-
-
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
