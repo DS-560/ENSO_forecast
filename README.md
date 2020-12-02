@@ -1,5 +1,11 @@
 # ENSO_forecast
 
+## Dataset
+You can download the CNRM model data for training from [here](http://portal.nersc.gov/project/dasrepo/AMS_ML_Tutorial/CNRM_tas_Anomalies_regridded.nc). The instrument data for SST anomaly is [here](https://climate.mri-jma.go.jp/pub/ocean/cobe-sst2/) and the ground truth Nino 3.4 index can be downloaded from this [website](https://portal.nersc.gov/project/dasrepo/AGU_ML_Tutorial/nino34.long.anom.data.txt). This [website](https://cds.climate.copernicus.eu/cdsapp#!/home) provides many options for reforecasr data.
+
+## CNN pre-trained models
+We share our pre-trained CNN models for lead times from 1 to 9. Use this [link](https://drive.google.com/drive/folders/1LTysXR1-cZZXog1J20bplrkZa7Emiw4f?usp=sharing) to access to our Google drive.
+
 ## Usage
 ### Use Microsoft Windows 10 as the operating system. If you use iOS or other operating systems, adjust the commands accordingly.
 - Clone this repo using Git Bash:
