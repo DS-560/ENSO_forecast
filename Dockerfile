@@ -35,4 +35,4 @@ Add /datasets /ENSO_forecast/datasets
 Add /options /ENSO_forecast/options
 Add /results /ENSO_forecast/results
 WORKDIR /ENSO_forecast
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.password=''"]
