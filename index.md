@@ -3,20 +3,22 @@
 Theory-based models are too computationally expensive to predict El Niño-Southern Oscillation (ENSO). We proposed new methods with time and computation efficiency to predict ENSO with a goal to achieve Pearson correlation above 0.6. We used linear regression and convolutional neural network (CNN) models from machine learning. The Nino 3.4 index predictions and their classified labels from both models were tested in instrumental data and validated on reforecast data generated from a theory-based model. The test result showed that regression had better performance than classification. Both linear regression and CNN models could achieve skillful predictions (i.e., Pearson correlation above 0.6) for lead time of 7 and 8 months, respectively. The classification had much lower correlations but high accuracy. When lead time was low, the linear regression performed better than CNN and it was the opposite when the lead time became high. The validation on reforecast indicated that our models were able to predict the trend of Nino 3.4 index, but their predictions were of lower amplitude.
 
 ## Identified Wastes
-### Skills: 
+### Skills
 The user needs to learn how to run codes in the terminal and understands Github's tutorial.
-### Waiting: 
+
+### Waiting
 The user needs to wait for a couple of minutes to get the result.
-### Over-processing: 
+
+### Over-processing
 The user needs to input the terminal parameters each time they use the system.
-### Inventory: 
+
+### Inventory
 Multiple folders in the local, so the user might need to find the result in those folders.
 
 ## Deliverables
 - Arrange tasks for each person for the 1st meeting
 - Create and beautify the sildes
 - Resolve Datetime format error
-
 
 ## Milestone
 - Deliver the sildes for the 1st meeting
