@@ -27,10 +27,10 @@ Inventory: Multiple folders in the local, so the user might need to find the res
 - Report submission
 
 ### Gantt Chart
-![image](https://joykuan.github.io/DS-560/ENSO_forecast/week1_gantt_chart.jpg)
-For more details see [Gantt Chart of ENSO_forecast](https://github.com/DS-560/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
+![image](https://ds-560.github.io/ENSO_forecast/week1_gantt_chart.jpg)
+For more details see [Gantt Chart of ENSO_forecast](https://ds-560.github.io/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
 
-https://joykuan.github.io/DS-560/ENSO_forecast/week1_gantt_chart.jpg
+
 
 ### Markdown
 
