@@ -27,11 +27,8 @@ Inventory: Multiple folders in the local, so the user might need to find the res
 - Report submission
 
 ### Gantt Chart
-
-
-For more details see [GitHub Flavored Markdown](https://github.com/DS-560/ENSO_forecast/milestones).
-
-
+![image](https://github.com/DS-560/ENSO_forecast/week1_gantt_chart.jpg)
+For more details see [Gantt Chart of ENSO_forecast](https://github.com/DS-560/ENSO_forecast/PROJECT_GANTT_CHART.xlsx).
 
 
 
