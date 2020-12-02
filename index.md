@@ -33,12 +33,12 @@ For more details see [Gantt Chart of ENSO_forecast](https://ds-560.github.io/ENS
 
 
 ## Contact Infromation
-Zerui Xie: _zeruixie@usc.edu_
-Jieqiong Pang: _jieqiong@usc.edu_
-Kuan-Hui Lin: _kuanhuil@usc.edu_  
-Yunyi Liao: _yunyilia@usc.edu_
-Jinhong Lei: _leijinho@usc.edu_
-Feilong Wu: _feilongw@usc.edu_
+- Zerui Xie: _zeruixie@usc.edu_
+- Jieqiong Pang: _jieqiong@usc.edu_
+- Kuan-Hui Lin: _kuanhuil@usc.edu_  
+- Yunyi Liao: _yunyilia@usc.edu_
+- Jinhong Lei: _leijinho@usc.edu_
+- Feilong Wu: _feilongw@usc.edu_
 
 
 
