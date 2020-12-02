@@ -1,3 +1,4 @@
 theme: jekyll-theme-dinky
 title: [ENSO Forecast]
-description: [The DSCI 560 course project from group 1.]
+description: [The project of DSCI560 from group 1.]
+show_downloads: ["true"]
