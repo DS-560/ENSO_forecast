@@ -2,7 +2,7 @@
 
 The purpose of ENSO_forecast is to propose new methods based on machine learning predicting El Niño-Southern Oscillation (ENSO) with time and computation efficiency and Pearson correlation can achieve greater than 0.6. Traditional theory-based models are too computationally expensive for predicting ENSO. Our forecasting system not only can maintain skillful prediction with a Pearson correlation above 0.6 for long-range forecast but also can let clients run our forecasting system quickly and on a local computer when out in the field, and can allow for a quick visualization of the comparison with instrumental data and theory-based models.
 
-For more detail of the project, please see and download the PDF version: [Project Report](https://drive.google.com/file/d/1KtXOSy0RucAPp2hHGxEocSbpe7ww9umQ/view?usp=sharing)
+For more detail of the project, please see and download the PDF version: [Project Report](https://drive.google.com/file/d/1rK6dVLF0cB6x14EokYnUm0SijkredQp0/view?usp=sharing)
 
 ## Planned the project 
 **Gantt Chart**
